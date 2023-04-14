@@ -1,0 +1,405 @@
+@import url("http://fonts.cdnfonts.com/css/charlestoning");
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background: #ffffff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #4dbb79,
+    #2f8752
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4dbb79, #399e61);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+}
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 40%;
+}
+.nav-links li {
+  list-style: none;
+}
+nav .logo h4 {
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+
+  letter-spacing: 2px;
+}
+.nav-links a {
+  font-size: 15px;
+  font-family: Arial;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: bold;
+}
+.first-header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 90vh;
+  background: #2980b9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #4dbb79,
+    #399e61
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #4dbb79,
+    #399e61
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.product-img {
+  text-align: center;
+  align-items: center;
+}
+.product-img img {
+  box-shadow: 12px 12px 2px 1px rgba(46, 46, 46, 0.2);
+  width: 35rem;
+  border-radius: 20px;
+}
+.product-name h1 {
+  font-size: 55px;
+  font-family: Comfortaa;
+  color: #ffffff;
+}
+.product-name p {
+  color: #dfdfdf;
+  font-family: arial;
+  font-size: 20px;
+}
+.first-header > div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  width: 50%;
+  text-align: center;
+  transform: translate(0%, -15%);
+}
+.wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+ul li {
+  font-size: 20px;
+}
+.problems {
+  margin-top: 4rem;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  gap: 2rem;
+}
+.problem_block {
+  border-radius: 20px;
+  height: 15rem;
+  width: 12rem;
+  border: 2px solid rgb(64, 123, 203);
+}
+li {
+  font-family: Arial;
+  font-size: 15px;
+}
+.problems-and-solutions {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.probsolDiv {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+}
+.probsolDiv > div {
+  width: 50%;
+}
+#device_image {
+  width: 40rem;
+}
+.probsolDivImage img {
+  border-radius: 20px;
+  width: 80%;
+}
+.probsolDivImage {
+  text-align: center;
+}
+.probsolDivText {
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.probsolDivText h2 {
+  font-family: Comfortaa;
+  background: -webkit-linear-gradient(rgb(43, 201, 82), rgb(29, 157, 134));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 45px;
+}
+
+.probsolDivText p {
+  width: 80%;
+  font-size: 17px;
+  color: rgb(96, 96, 96);
+  font-family: sans-serif;
+}
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+.swiper-slide {
+  margin-top: 1rem;
+  background-size: 100%, 100%;
+}
+#dataChart {
+  size: 5em;
+}
+.dataChartClass {
+  margin-top: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+.dataChartBlock {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-self: center;
+  font-size: 20px;
+}
+.dataChartBlock p {
+  font-family: Arial;
+  width: 60%;
+}
+.dataChartBlockFlex {
+  display: flex;
+  flex-direction: row;
+}
+.dataChartBlockFlex > div {
+  width: 50%;
+}
+.dataChartClass h3 {
+  margin-bottom: 3rem;
+  font-size: 30px;
+  font-family: Arial;
+  text-align: center;
+}
+.dataChartBlock {
+}
+.swiper-slide img {
+  width: 100%;
+}
+.socials > div {
+  width: 20%;
+}
+.socials {
+  margin-top: 3rem;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
+  display: flex;
+  flex-direction: row;
+}
+.socials img {
+  width: 15rem;
+}
+.advanteges {
+  padding: 2.5rem 0 2.5rem 0;
+  margin-top: 8rem;
+  width: 100%;
+  background-color: rgb(80, 166, 222);
+}
+.advanteges h2 {
+  align-items: center;
+  text-align: center;
+  color: #010101;
+  font-size: 40px;
+
+  font-family: Arial;
+}
+.advanteges-blocks {
+  flex-wrap: wrap;
+  width: 100%;
+  margin-inline: auto;
+  margin-top: 6vh;
+  gap: 15vh;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+.advanteges-block {
+  width: 30%;
+}
+.advanteges-block h3 {
+  font-family: Arial;
+  font-size: 25px;
+  color: white;
+}
+.advanteges-block p {
+  margin-top: 15px;
+  color: white;
+  font-family: system-ui;
+}
+.about-our-startup {
+  margin-top: 4rem;
+  width: 60%;
+  margin-inline: auto;
+  padding: 20px;
+}
+.about-our-startup {
+  margin-top: 4rem;
+  width: 60%;
+  margin-inline: auto;
+  padding: 20px;
+}
+.about-our-startup h2 {
+  font-size: 35px;
+  background: -webkit-linear-gradient(rgb(43, 201, 82), rgb(29, 157, 134));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Comfortaa;
+}
+.about-our-startup p {
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  font-family: Arial;
+}
+.team {
+  margin-top: 8rem;
+}
+.team h2 {
+  text-align: center;
+  font-size: 40px;
+  font-family: Comfortaa;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.team-member-block {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.team-member img {
+  margin-top: 2rem;
+  box-shadow: 12px 12px 2px 1px rgba(46, 46, 46, 0.2);
+  width: 230px;
+  height: 230px;
+  border-radius: 12px;
+}
+.team-member h3 {
+  margin-top: 1rem;
+  font-family: Arial;
+}
+.contact-me {
+  margin-top: 9rem;
+  display: flex;
+  flex-direction: row;
+}
+.contact-me h1 {
+  background: -webkit-linear-gradient(rgb(96, 216, 126), rgb(29, 157, 134));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.5rem;
+  font-family: Comfortaa;
+}
+.contact-me > div {
+  width: 50%;
+  text-align: center;
+}
+.contact-me-picture img {
+  width: 25rem;
+}
+.contact-me-picture {
+  display: flex;
+  justify-content: center;
+}
+.contact-me-inputs form {
+  margin-top: 2rem;
+  gap: 1rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.contact-me-inputs button {
+  background: none;
+  border: 1px solid rgb(96, 216, 126);
+  border-radius: 10px;
+  width: 10rem;
+  font-size: 2rem;
+}
+.contact-me-inputs button:hover {
+  background: -webkit-linear-gradient(rgb(140, 234, 164), rgb(98, 211, 115));
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.contact-me-inputs textarea {
+  padding: 10px;
+  width: 15rem;
+  border-radius: 10px;
+}
+.contact-me-inputs input {
+  font-size: 0.7rem;
+  width: 15rem;
+  padding: 15px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 10px;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  margin-top: 3rem;
+  width: 100%;
+  height: 20vh;
+  background-color: #9a9a9a;
+}
+footer > div {
+  width: 50%;
+}
+.weisterner-footer {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  height: 20vh;
+}
+.weisterner-footer h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-family: Arial;
+}
+.contacts {
+  font-family: Arial;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.contacts ul li {
+  margin-top: 3px;
+}
+.speedometer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}

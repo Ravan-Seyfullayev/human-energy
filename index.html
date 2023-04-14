@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EnergyTech</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Comfortaa"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <h4>Human Energy</h4>
+        </div>
+
+        <ul class="nav-links">
+          <li><a href="#section1"></a></li>
+          <li><a href="#section2">Why Us?</a></li>
+          <li><a href="#section3">Contact me</a></li>
+        </ul>
+      </nav>
+      <div class="first-header">
+        <div class="product-name">
+          <h1>Human Energy</h1>
+          <p>Qazanmaq üçün sərf et!</p>
+        </div>
+        <div class="product-img">
+          <img src="img/etridevelops.jpeg" alt="" />
+        </div>
+      </div>
+    </header>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="wave">
+      <path
+        fill="#ffffff"
+        fill-opacity="1"
+        d="M0,0L48,32C96,64,192,128,288,170.7C384,213,480,235,576,224C672,213,768,171,864,138.7C960,107,1056,85,1152,69.3C1248,53,1344,43,1392,37.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+      ></path>
+    </svg>
+    <div></div>
+
+    <div class="socials">
+      <div class="social_asanxidmet">
+        <a href="https://asan.gov.az"><img src="img/logo.svg" alt="" /></a>
+      </div>
+      <div class="social_azerisiq">
+        <a
+          href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjz-4Wr1qf-AhUrRvEDHVP8CywQFnoECA4QAQ&url=https%3A%2F%2Fwww.azerishiq.az%2F&usg=AOvVaw0rBHye-iSJTU3wfDIYZgiu"
+          ><img src="img/Unknown.png" alt=""
+        /></a>
+      </div>
+      <div class="social_innoland">
+        <a href="http://www.innoland.az"
+          ><img src="img/innoland.png" alt=""
+        /></a>
+      </div>
+    </div>
+    <div class="speedometer"><canvas id="speedometerChart"></canvas></div>
+    <div class="problems-and-solution">
+      <div class="probsolDiv" data-aos="slide-up">
+        <div class="probsolDivText">
+          <h2>Problem</h2>
+          <p>
+            Əsas problemlərdən biri enerjinin səmərəsiz istehsalı və
+            istifadəsidir ki, bu da israf və daha yüksək məlumatlar gələndə daha
+            böyük məsələlər yaradır. Digər bir məsələ, enerji sahəsində
+            innovasiya və inkişafı maneələyə biləcək davamlı enerji təcrübələri
+            üçün məhdud məlumat və resursların varlığıdır. Enerji istehsalının
+            ətraf mühitə təsiri də nəzərə alınmaması mümkün olmayan kritik bir
+            məsələdir. Bu sahə, karbon qazının yayılmasını azaltmaq və ətraf
+            mühiti qorumaq üçün yollar tapmalıdır. Bundan başqa, portativ
+            elektron cihazların məhdud batareya ömrü də, bu cihazların rahatlığı
+            və istifadə edilmə məhdudiyyətinə təsir edən bir problemdir.
+            Həmçinin, "Azərişıq" onlayn platforması məhdud istifadəyə sahibdir
+            və hələ də çoxlu fiziki müraciətlər və vaxt itkisi var ki, bu,
+            müştəri təcrübəsini yaxşılaşdırmaq üçün həll edilməlidir.
+          </p>
+        </div>
+        <div class="probsolDivImage">
+          <img src="img/icon_6-explore_the_fraud_problem.png" alt="" />
+        </div>
+      </div>
+      <div class="probsolDiv" data-aos="slide-up">
+        <div class="probsolDivImage">
+          <img src="img/istockphoto-1330427409-612x612.jpeg" alt="" />
+        </div>
+        <div class="probsolDivText">
+          <h2>Target Market</h2>
+          <p>
+            Açıq hava gəzənləri: Dağçılar, yürüşçülər və uzun müddət enerji
+            mənbələrindən uzaqda vaxt keçirən digər açıq hava gəzənləri,
+            cihazlarının enerjisini bədən istiliyinin enerjisə çevirən bir
+            cihazdan faydalana bilir. İş səyahətçiləri: Hər zaman hərəkət
+            halında olan və əlaqəni davam etdirmək üçün enerjiyə ehtiyacı olan
+            iş səyahətçiləri də cihazlarının enerjisini bədən istiyinin enerjisə
+            çevirən bir cihazdan faydalana bilir. Idmançılar: Performanslarını
+            izləmək üçün geyinilə bilən texnologiyadan istifadə edən idmançılar
+            da cihazlarının enerjisini bədən istiliyinin enerjisə çevirən bir
+            cihazdan istifadə edə bilər. Tibbi fəaliyyət sahibləri: Daşınabilən
+            tibbi avadanlıqlar kimi gedərkən elektronik cihazlardan istifadə
+            etməli olan tibbi fəaliyyət sahibləri
+          </p>
+        </div>
+      </div>
+
+      <div class="probsolDiv" data-aos="slide-up">
+        <div class="probsolDivText">
+          <h2>Device</h2>
+          <p>
+            Avadanlıq: Məhsula bədən hərəkətlərindən və istilikdən enerji tutmaq
+            üçün sensorlar olan qolbaq və ya yamaq kimi bədənə qoşulan kiçik,
+            yüngül cihaz daxil ola bilər. Cihaz bədən hərəkətləri və istilik
+            nəticəsində yaranan enerjini saxlayan təkrar doldurulan batareyadan
+            ibarət ola bilər. Cihaz həmçinin istifadəçinin smartfonu və ya digər
+            elektron cihazları ilə əlaqə yaratmaq üçün mikrokontroller və simsiz
+            rabitə modulunu da daxil edə bilər.
+            <br />
+            Proqram təminatı: Tətbiq məhsulu idarə etmək və yaradılan və
+            saxlanılan enerjinin miqdarına baxmaq üçün istifadəçi dostu
+            interfeysi ehtiva edə bilər. Tətbiqə həmçinin cihazın doldurulması
+            lazım olduqda bildirişlərin qurulması funksiyası da ola bilər.
+          </p>
+        </div>
+        <div class="probsolDiv" data-aos="slide-up">
+            <div class="probsolDivImage">
+              <img src="img/human-power-devices-sweat.jpeg" alt="" / id="device_image">
+            </div>
+      </div>
+    </div>
+    <div class="dataChartClass">
+      <h3>The Data that shows our Progress</h3>
+      <div class="dataChartBlockFlex">
+        <div class="dataChartBlock">
+          <canvas id="dataChart"></canvas>
+        </div>
+        <div class="dataChartBlock">
+          <p>
+            Grand View Research-in hesabatına görə, enerji yığan geyilə bilən
+            cihazlar üçün qlobal bazar 2020-ci ildə 409,9 milyon ABŞ dolları
+            dəyərində qiymətləndirilib və proqnoz dövründə CAGR-də 9,7% artaraq
+            2028-ci ilə qədər 838,8 milyon dollara çatacağı gözlənilir.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="advanteges" id="section1">
+      <h2>Competitive advantages</h2>
+      <div class="advanteges-blocks">
+        <div class="advanteges-block" data-aos="slide-right">
+          <h3>
+            Həm kinetik, həm də istilik enerjisini tutan unikal texnologiya
+          </h3>
+          <p>
+            Bir neçə enerji mənbəsindən enerji toplamaq üçün fərdi kinetik və termal enerji əks etdirə bilən bir texnologiya enerji toplama sahəsində böyük bir tərəqqi olduğunu göstərir. Bu innovativ həll, hərəkət və istilik enerjisini istifadəyə uyğun elektrik enerjisini çevirməyə imkan verir ki, bu da geniş bir cihaz və tətbiqetmələr qrupunu gücləndirmə potensialına malikdir. Birdən çox mənbədən enerji əldə etmək bacarığı ilə bu unikal texnologiya, gələcəkdə enerji yaradılması və istifadəsinə dair bir çox təsirlərə malik olacaqdır.
+          </p>
+        </div>
+        <div class="advanteges-block" data-aos="slide-right">
+          <h3>Davamlı və ekoloji cəhətdən təmiz enerji istehsalı.</h3>
+          <p>
+            Davamlı və ekoloji cəhətdən təmiz enerji istehsalı, davamlı inkişafın əsas mərhələlərindən biridir. Bu, ətraf mühiti zərər verməyən və ya iqlim dəyişikliyinə səbəb olmayan yenilənən mənbələr vasitəsi ilə enerji yaratmağı əhatə edir. Bu növ enerji istehsalı, güneş, külək, hidro, geotermal və biomassa kimi mənbələri daxil edir. Davamlı və ekoloji cəhətdən enerji istehsalına keçid edərək, fosil yakıtlara olan ehtiyacımızı azaldaraq, gələcək nəsillər üçün daha təmiz və sağlamlıqla bağlı bir planet təmin edə bilərik.
+          </p>
+        </div>
+
+      </div>
+    </div>
+    <div class="about-our-startup" id="section2" data-aos="slide-right">
+      <h2>About Our Start Up</h2>
+      <p>
+        Bu cihazlar (qolbaq, saat, kəmər və s.) şəklində taxıla bilər və onlar
+        thermoelektrik enerji yaratma prosesindən istifadə edir ki, bu proses
+        cild və ətraf mühiti arasındakı temperatur fərqini istifadəyə hazır
+        elektrik enerjiyə çevirir. Bu taxılabilən cihazlar, elektronik
+        cihazlarımızı enerji ilə təmin etmə yolumuzu dəyişdirə bilər, xüsusilə
+        enerji mənbəyinə girişin məhdudiyyətli olduğu hallarda. Məsələn, uzaq
+        mesafəli yarışlarda iştirak edən idmançılar və ya uzaq məkanlarda
+        yerləşdirilmiş hərbi personal, bu cihazları GPS sistemləri, radio və
+        digər kommunikasiya cihazlarının enerjisi üçün istifadə edə bilərlər.
+      </p>
+    </div>
+    <div class="team">
+      <h2>Team</h2>
+      <div class="team-member-block">
+        <div class="team-member" data-aos="fade-down-right">
+          <img src="img/nasimi.jpg" alt="" />
+          <h3>Nasimi Sadigli</h3>
+          <h3>CEO - "Iti Zəka" hackathon winner</h3>
+        </div>
+        <div class="team-member" data-aos="fade-down-right">
+          <img src="img/sabina.jpg" alt="" />
+          <h3>Səbinə Quliyeva</h3>
+          <h3>Co-Founder - Norway ( UWC student) </h3>
+        </div>
+        <div class="team-member" data-aos="fade-down-left">
+          <img src="img/deniz.jpg" alt=""  />
+          <h3>Dəniz Səttarlı</h3>
+          <h3>Co-Founder - MIT student</h3>
+        </div>
+        <div class="team-member" data-aos="fade-down-left">
+          <img src="img/nihad.jpg" alt=""  />
+          <h3>Nihad Əzizli</h3>
+          <h3>Co-Founder - Leangup (Start Up) participant</h3>
+        </div>
+      </div>
+    </div>
+    <div class="contact-me" id="section3">
+      <div class="contact-me-inputs">
+        <h1>Contact Us</h1>
+        <form action="" onsubmit="sendEmail(); reset(); return false;">
+          <input type="text" placeholder="Name" id="name" />
+          <input type="email" placeholder="E-mail" id="email" />
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+          <button>Submit</button>
+        </form>
+      </div>
+      <div class="contact-me-picture">
+        <img src="img/contact-me.svg" alt="" />
+      </div>
+    </div>
+    <footer>
+      <div class="weisterner-footer">
+        <h3>&copy; Human Energy</h3>
+      </div>
+      <div class="contacts">
+        <ul>
+          <li>Instagram</li>
+          <li>Facebook</li>
+          <li>Email: sadiqli.nasimi@gmail.com</li>
+          <li>Phone: +994 51 688 96 70</li>
+          <a href="phone"></a>
+        </ul>
+      </div>
+    </footer>
+
+    <script>
+      const ctx = document.getElementById("dataChart");
+
+      new Chart(ctx, {
+        type: "bar",
+        data: {
+          labels: ["2020", "2025", "2030"],
+          datasets: [
+            {
+              label: "*USD Billions",
+              data: [530, 625, 800],
+              borderWidth: 7,
+            },
+          ],
+        },
+        options: {
+          scales: {
+            y: {
+              beginAtZero: true,
+            },
+          },
+        },
+      });
+      const ctx2 = document.getElementById("speedometerChart");
+      new Chart(ctx2, {
+        type: "doughnut",
+
+        data: {
+          labels: [ "Voltage"],
+          datasets: [
+            {
+              label: "*Voltages",
+              data: [1000,800],
+              borderWidth: 7,
+              backgroundColor: ["#ff1940","#301217"],
+              borderWidth: 0
+            },
+          ],
+        },
+      });
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+      AOS.init({
+        delay: 0,
+      });
+    </script>
+  </body>
+</html>
